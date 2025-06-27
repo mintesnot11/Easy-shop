@@ -20,3 +20,10 @@ Displays products, quantities, and automatically calculates the total. Example: 
 Editable fields for name, email, and address with an update button to save changes.
 
 ![Screenshot  03.png](screenshots/Screenshot%20%2003.png)
+
+
+This method generates a secure JWT token when a user logs in. It includes the user’s roles, sets an expiration time, and signs the token with a secret key. 
+The token allows the app to authenticate future requests without storing session data on the server. 
+This enables secure, stateless user authentication.
+
+![Screenshot  04.png](screenshots/Screenshot%20%2004.png)
